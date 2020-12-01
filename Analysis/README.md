@@ -6,13 +6,7 @@ BioLockJ - https://biolockj-dev-team.github.io/BioLockJ/Getting-Started/
 ## 2. Download RYGB_IntegratedAnalysis directory
 git clone https://github.com/FarnazFouladi/RYGB_IntegratedAnalysis2020.git
 
-## 3. Change directory path in config file (RYGB_IntegratedAnalysis.properties)
-
-################ Change working directory #################################                                                 
-DIR= your/path/to/RYGB_IntegratedAnalysis2020                   
-#######################################################################                   
-
-## 4. Set up required software
+## 3. Set up required software
 
 ### Option A) using docker
 
@@ -47,10 +41,10 @@ Make sure all required R packages are installed
  * pdp
  * SIAMCAT
 
-## 5. Run BioLockJ pipeline
+## 4. Run BioLockJ pipeline
 
 Move to the Analysis folder:            
-`cd <path/to/RYGB_IntegratedAnalysis2020>/BioLockJ/Analysis`
+`cd <path/to/RYGB_IntegratedAnalysis2020>/Analysis`
 
 To run the pipeline using **locally installed software**:                 
 `biolockj RYGB_IntegreatedAnalysis.config`

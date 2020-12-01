@@ -5,12 +5,12 @@
 
 This repository contains:         
 
- * Configuration files used for sequence processing for all sub-projects, see folder: `BioLockJ/SequenceProcessing`
+ * Configuration files used for sequence processing for all sub-projects, see folder: `SequenceProcessing`
  * Counts files produced by processing the sequences, see folder: `input`
- * Configuration file to run the analysis component of the project, including all Rcode, see folder: `BioLockJ/Analysis`
+ * Configuration file to run the analysis component of the project, including all Rcode, see folder: `Analysis`
  * Results of the analysis (figures and tables), see folder: `output`
  
-See `BioLockJ/Analysis/README` for instructions on how to repeat the entire analysis on your own machine, thus reproducing all figures and tables.  A review module was added to the pipeline to facilitate readers and reviewers comparing the reproduced output the the corresponding components in the manuscript.
+See `Analysis/README` for instructions on how to repeat the entire analysis on your own machine, thus reproducing all figures and tables.  A review module was added to the pipeline to facilitate readers and reviewers comparing the reproduced output the the corresponding components in the manuscript.
 
 ## Manuscript
 
