@@ -143,12 +143,7 @@ for (study in studies){
     
     if(sum(colnames(feat.test)==rownames(meta.test))!=nrow(meta.test)) stop("error") 
     
-    siamcat.test <- siamcat(feat=feat.test,meta=meta.test, 
-                            label = 'time', case=1)
-  
-    siamcat.test <- normalize.features(siamcat.test, norm.method = norm.method, 
-                                norm.param = n.p, feature.type = 'original', 
-                                verbose=3)
+    siamcat.test <- siamcat(feat=feat.test)
  
     siamcat.test <- make.predictions(siamcat, siamcat.holdout = siamcat.test)
     
@@ -177,12 +172,7 @@ for (study in studies){
   
   if(sum(colnames(feat.test)==rownames(meta.test))!=nrow(meta.test)) stop("error") 
   
-  siamcat.test <- siamcat(feat=feat.test,meta=meta.test, 
-                          label = 'time', case=1)
-  
-  siamcat.test <- normalize.features(siamcat.test, norm.method = norm.method, 
-                                norm.param = n.p, feature.type = 'original', 
-                                verbose=3)
+  siamcat.test <- siamcat(feat=feat.test)
   
   siamcat.test <- make.predictions(siamcat, siamcat.holdout = siamcat.test)
   
